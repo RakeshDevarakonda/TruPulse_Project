@@ -5,11 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-
     "lint": "eslint .",
     "preview": "vite preview",
- "install": "npm install --legacy-peer-deps",
-    "build": "npm run install && next build"
+
+    "build": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
