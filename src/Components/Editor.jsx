@@ -13,6 +13,7 @@ const converter = new Showdown.Converter({
   tasklists: true,
 });
 
+
 export default function Editor() {
   const {
     selectedNote,
