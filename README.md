@@ -1,3 +1,7 @@
+## Live Url 
+
+https://tru-pulse-project-aqdg.vercel.app/
+
 # Offline-First Markdown Notes App with Sync
 
 A React-based Markdown notes application that works smoothly offline and syncs notes with a mock backend API when online. Notes are persisted locally in IndexedDB and support creating, editing, deleting, and searching — all with real-time sync status and connectivity awareness.
