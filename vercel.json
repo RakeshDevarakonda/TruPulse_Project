@@ -1,11 +1,11 @@
 {
   "version": 2,
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
-      "installCommand": "npm install --legacy-peer-deps",
-      "buildCommand": "npm run build"
+      "use": "@vercel/static-build"
     }
   ],
   "rewrites": [
